@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background: #635854;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+.nav-item{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.nav-list-link{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color:#fff  ;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-end;
+}
+.contact-text{
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.contact-number{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.main{
+    padding-top: 54px;
+    margin-bottom: 100px;
+}
+.main-info{
+    flex-grow: 1;
+    text-align: center;
+    align-items: center;
+}
+.home-image path{
+    opacity: 0;
+    cursor: pointer;
+}
+.home-image path:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.title{
+    font-family: "Bebas Neue Cyrillic", sans-serif;
+    font-weight: thin;
+    font-size: 37px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #635854;
+
+}
+.counter{
+    margin-top: 110px;
+}
+.count-number{
+    color: #635854;
+    font-size: 110px;
+    font-weight: thin;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+.arrow{
+    background: #fff;
+    border: none;
+    cursor: pointer;
+}
+.button{
+    margin-top: 109px;
+}
+.apartaments{
+    background: #3596F5;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+    padding:16px 36px;
+    text-decoration: none;
+ 
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #D7D7D7;
+    padding-top: 50px;
+    padding-bottom: 56px;
+}
+.footer-logo{
+    margin-right: 37px;
+}
+.footer-contacts{
+    display: flex;
+    flex-direction: column;
+   align-items: flex-start;
+}
+.footer-contact-text, .footer-contact-number{
+    color: #635854;
+}
+.footer-contact-number{
+    margin-top: 5px;
+}
+.social{
+    margin-left: 60px;
+    margin-right: 345px;
+}
+.social-link{
+    text-decoration: none;
+}
+.social-link:not(:last-child){
+    margin-right: 15px;
+}
+.footer-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-item{
+    list-style: none;
+    text-decoration-line: underline;
+    font-size: 16px;
+    line-height: 19px;
+    color: #635854;
+}
+.footer-item:not(:last-child){
+    margin-right: 20px;
+}
